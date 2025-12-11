@@ -49,17 +49,20 @@ body {
 /* HERO */
 .hero {
     height: 100vh;
-    padding-top: 150px;
-    text-align: center;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* pushes content to RIGHT SIDE */
 
     background-image: url('./lokesh.jpg');
     background-size: cover;
-    background-position: center top;
+    background-position: left center; /* shows your face clearly */
     background-repeat: no-repeat;
 
     position: relative;
 }
 
+/* Dark overlay */
 .hero::before {
     content: "";
     position: absolute;
@@ -67,13 +70,19 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.45);
     z-index: 0;
 }
 
 .hero * {
     position: relative;
     z-index: 1;
+}
+
+/* Text container */
+.hero-content {
+    max-width: 500px;
+    text-align: left; /* aligns text cleanly */
 }
 
 .title {
