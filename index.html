@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="logo">Lokesh Reddy</div>
@@ -19,26 +20,41 @@
         </ul>
     </nav>
 
-    <!-- HERO SECTION -->
+
+    <!-- HERO SECTION (IMAGE LEFT + TEXT RIGHT) -->
     <section id="hero" class="hero">
-    <div class="hero-content">
-        <h1 class="title">Hi, I'm <span class="highlight">Lokesh Reddy Janga</span></h1>
-        <h2 class="subtitle">Python Developer | Backend & Automation Engineer</h2>
-        <p class="tagline">
-            Building robust APIs, automation, and cloud-native solutions using Python.
-        </p>
-    </div>
-</section>
+
+        <!-- LEFT SIDE IMAGE -->
+        <div class="hero-image">
+            <img src="lokesh.jpg" alt="Lokesh Reddy Janga">
+        </div>
+
+        <!-- RIGHT SIDE TEXT -->
+        <div class="hero-content">
+            <h1 class="title">
+                Hi, I'm <span class="highlight">Lokesh Reddy Janga</span>
+            </h1>
+
+            <h2 class="subtitle">
+                Python Developer | Backend & Automation Engineer
+            </h2>
+
+            <p class="tagline">
+                Building robust APIs, automation, and cloud-native solutions using Python.
+            </p>
+        </div>
+
+    </section>
+
 
 
     <!-- ABOUT SECTION -->
     <section id="about" class="about container">
         <h2 class="section-title">About Me</h2>
         <p class="about-text">
-            I am a Python Developer with around 8 years of experience building scalable backend systems, RESTful APIs,
+            I am a Python Developer with 7+ years of experience building scalable backend systems, RESTful APIs,
             automation tools, and cloud-native applications. My core strength is designing and implementing clean,
-            maintainable services using Python, with a strong focus on performance, reliability, and developer
-            experience.
+            maintainable services using Python, with a strong focus on performance, reliability, and security.
             <br><br>
             I work extensively with frameworks like Flask, Django, and FastAPI; relational and NoSQL databases such as
             PostgreSQL, MySQL, MongoDB, Cassandra, and Redis; and cloud platforms including AWS, GCP, and Azure. I have
@@ -50,11 +66,14 @@
         </p>
     </section>
 
+
+
     <!-- SKILLS SECTION -->
     <section id="skills" class="skills container">
         <h2 class="section-title">Technical Skills</h2>
 
         <div class="skills-grid">
+
             <div class="skill-box">
                 <h3>Core Python & Backend</h3>
                 <p>Python, REST APIs, GraphQL, WebSockets, Async I/O, Microservices, Serverless (AWS Lambda)</p>
@@ -72,7 +91,8 @@
 
             <div class="skill-box">
                 <h3>Cloud & DevOps</h3>
-                <p>AWS (EC2, S3, RDS, Lambda, API Gateway, DynamoDB), GCP, Azure, Docker, Kubernetes, Jenkins, GitLab CI, AWS CodePipeline</p>
+                <p>AWS (EC2, S3, RDS, Lambda, API Gateway, DynamoDB), GCP, Azure, Docker, Kubernetes, Jenkins,
+                    GitLab CI, AWS CodePipeline</p>
             </div>
 
             <div class="skill-box">
@@ -84,19 +104,23 @@
                 <h3>Other Languages & Frontend</h3>
                 <p>JavaScript, TypeScript, Java, C, React.js, Angular, HTML5, CSS3, Bootstrap, Tailwind CSS</p>
             </div>
+
         </div>
     </section>
+
+
 
     <!-- PROJECTS SECTION -->
     <section id="projects" class="projects container">
         <h2 class="section-title">Selected Python Projects</h2>
 
         <div class="projects-grid">
+
             <div class="project-card">
                 <h3>API Monitoring & Alerting System</h3>
                 <p>
-                    Built a Python-based monitoring service using FastAPI and Celery to track API latency, error rates,
-                    and throughput, with alerts pushed to Slack and email when thresholds are breached.
+                    Built a Python-based monitoring service using FastAPI and Celery to track API latency, error
+                    rates, and throughput, with alerts pushed to Slack and email when thresholds are breached.
                 </p>
                 <p class="tech-stack">Tech: Python, FastAPI, Redis, PostgreSQL, Celery, Docker, AWS</p>
                 <a href="#" class="project-link">View on GitHub</a>
@@ -109,33 +133,4 @@
                     cloud storage and scheduling jobs for daily execution.
                 </p>
                 <p class="tech-stack">Tech: Python, Pandas, SQLAlchemy, AWS S3, Airflow / Cron</p>
-                <a href="#" class="project-link">View on GitHub</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Secure Authentication & User Management</h3>
-                <p>
-                    Implemented a modular authentication service using JWT and OAuth2, with role-based access control
-                    and integration to external identity providers like Okta / Cognito.
-                </p>
-                <p class="tech-stack">Tech: Python, Django / FastAPI, JWT, OAuth2, PostgreSQL</p>
-                <a href="#" class="project-link">View on GitHub</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="contact container">
-        <h2 class="section-title">Contact Me</h2>
-        <p>Email: <a href="mailto:lokeshreddyjanga99@gmail.com">lokeshreddyjanga99@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/lokeshreddy2000" target="_blank">github.com/lokeshreddy2000</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/lokesh-reddy-52a93520a/" target="_blank">https://www.linkedin.com/in/lokesh-reddy-52a93520a/</a></p>
-    </section>
-
-    <footer class="footer">
-        © 2025 Lokesh Reddy Janga — Python Developer
-    </footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+                <a href="#" cl
